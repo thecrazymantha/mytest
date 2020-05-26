@@ -1,14 +1,23 @@
-
 <head>
-  <title>mytest</title>
-</head>
-
-<body>
-  {{> page médailles}}
-</body>
-
-
-<template name="titre médailles">
+    <title>mytest</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      footer {
+      background-color:green;
+      padding: 25px;
+    }
+    </style>
+  </head>
+  
+  <body>
+    <style>
+      body {
+      background-color: linear-gradient(rgb(238, 181, 96), rgb(0, 68, 255));
+      background-color: rgb(250, 177, 67);
+      font-family: 'Segoe Print';
+      }
+    </style>
   <div class="jumbotron">
     <style>
       .jumbotron {
@@ -38,10 +47,8 @@
           </h2>
       </div>
     </div>
-
-</template>
-
-<template name="liste des médailles">
+  
+    
   <div class="container-fluid bg-3 text-center">    
     <h3>Challenge</h3><br>
     <style>
@@ -156,4 +163,8 @@
       </div>
     </div>
   </div><br>
-</template>
+  
+  <footer class="container-fluid text-center">
+  </footer>
+  
+  </body>
